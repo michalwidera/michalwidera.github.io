@@ -1,6 +1,6 @@
 # RetractorDB
 
-RetractorRD is an Time Series Database.
+RetractorDB is an Time Series Database.
 
 Database migration process is in progress.
 
