@@ -6,7 +6,7 @@ Database migration process is in progress.
 
 Please stay tuned.
 
-## Definition
+## Retractor definition
 
 medical: _A retractor is a surgical instrument used to separate the edges of a surgical incision or wound, or to hold back underlying organs and tissues so that body parts under the incision may be accessed._
 
