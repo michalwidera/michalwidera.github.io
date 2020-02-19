@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Michal Widera"
   avatar : "/assets/images/michal-photo.jpg"
-  bio    : "This site is under construction. Be patient. Info will apear soon."
+  bio    : "Software engineer"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -71,6 +71,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/michalwidera"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/michalwidera/"
 
 
 footer:

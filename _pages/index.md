@@ -6,29 +6,24 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/IMG_0786.JPG
-  actions:
-    - label: "System and Web Page migration in progress..."
-      url: "https://abracadabradb.com/"
   caption: "Photo credit: Tomasz Widera"
 excerpt: "RetractorDB is the open source time series database"
-intro: 
-  - excerpt: 'This system offers unique method of data processing. Using a declarative language, the system creates query execution plans based on __number theory__ equations. Please notice that system is in __protoype stage__. The goal is to create new standard for time series processing query languages.'
 feature_row:
   - image_path: assets/images/splash-1.jpg
     alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "Unique way of data processing"
+    excerpt: "This system offers unique method of data processing. Using a declarative language, the system creates query execution plans based on __number theory__ equations."
   - image_path: /assets/images/splash-2.jpg
-    image_caption: "Image by Tomasz Widera"
+    image_caption: "Photos by Tomasz Widera"
     alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
+    title: "What differences?"
+    excerpt: "This is a repetitive question after the first contact. In short: This system can do what others cannot. But there more rocket science ..."
+    url: /different/
+    btn_label: "Read more"
     btn_class: "btn--primary"
   - image_path: /assets/images/splash-3.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "Prototype!"
+    excerpt: "Please notice that system is in __protoype stage__. The goal is to create new standard for time series processing query languages. Take, learn and spread across all other projects. Good ideas should be supported."
 feature_row2:
   - image_path: /assets/images/splash-4.jpg
     alt: "placeholder image 2"

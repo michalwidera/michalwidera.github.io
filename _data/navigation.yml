@@ -1,9 +1,7 @@
 main:
-    - title: "Posts"
-      url: /posts/
-    - title: "Categories"
-      url: /categories/
-    - title: "Tags"
-      url: /tags/
+    - title: "Tutorial"
+      url: /tutorial/
+    - title: "Download"
+      url: https://github.com/michalwidera/abracadabradb
     - title: "About"
       url: /about/
