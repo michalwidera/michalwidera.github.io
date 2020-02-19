@@ -18,8 +18,8 @@ This is first and fast use case. Use tmux for switching tasks. There is a sequen
 
 ```
 sudo apt-get -y install gcc cmake libboost-all-dev make build-essential tmux
-git clone https://github.com/michalwidera/abracadabradb.git
-cd abracadabradb
+git clone https://github.com/michalwidera/retractordb.git
+cd retractordb
 cmake CMakeLists.txt; make
 ./build/xcompiler -q test/query-lnx.txt
 tmux
