@@ -17,23 +17,20 @@ feature_row:
     image_caption: "Photos by Tomasz Widera"
     alt: "placeholder image 2"
     title: "What differences?"
-    excerpt: "This is a repetitive question after the first contact. In short: This system can do what others cannot. But there more rocket science ..."
+    excerpt: "This is a repetitive question after the first contact. In short: This system can do what others cannot. But expect some rocket science ..."
     url: /different/
     btn_label: "Read more"
     btn_class: "btn--primary"
   - image_path: /assets/images/splash-3.jpg
     title: "Prototype!"
-    excerpt: "Please notice that system is in __protoype stage__. The goal is to create new standard for time series processing query languages. Take, learn and spread across all other projects. Good ideas should be supported."
+    excerpt: "Please notice that system is in __prototype stage__. The goal is to create new standard for time series processing query languages. Take, learn and spread across all other projects. Good ideas should be supported."
 feature_row2:
   - image_path: /assets/images/splash-4.jpg
     alt: "placeholder image 2"
     title: "Removing complexity is not always a win."
     excerpt: '_“Serverless” means you have servers, but can’t configure/customize them.
-
 “No-code” means there is code, but you can’t change it.
-
 “NoSQL” means you have to learn a new query language and implement your own transaction mechanisms.
-
 Removing complexity is not always a win._
 
 
@@ -55,7 +52,6 @@ Building of this system took a couple of years and still attracts me. The lonely
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
-{% include feature_row id="intro" type="center" %}
 
 | __Medical__: _A retractor is a surgical instrument used to separate the edges of a surgical incision or wound, or to hold back underlying organs and tissues so that body parts under the incision may be accessed._ | __Timeseries__ : _A retractor is a numerical instrument used to separate the time series hold back underlying data so that information under the data flow may be accessed._ __(new)__|
 
