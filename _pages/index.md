@@ -17,7 +17,7 @@ feature_row:
     image_caption: "Photos by Tomasz Widera"
     alt: "placeholder image 2"
     title: "What differences?"
-    excerpt: "This is a repetitive question after the first contact. In short: This system can do what others cannot. But expect some rocket science ..."
+    excerpt: "This is a repetitive question after the first contact. In short: This system can do what others cannot. So ... are you ready for rocket science?"
     url: /different/
     btn_label: "Read more"
     btn_class: "btn--primary"
