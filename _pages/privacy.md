@@ -9,7 +9,7 @@ header:
   overlay_color: "#333"
 ---
 
-At retractordb.com, accessible from https://retractordb.com, one of our priorities is the privacy of our visitors. This document contains types of information that is collected and recorded by abracadabradb.com and how we use it.
+At retractordb.com, accessible from https://retractordb.com, one of our priorities is the privacy of our visitors. This document contains types of information that is collected and recorded by retractordb.com and how we use it.
 
 Log Files
 --------
