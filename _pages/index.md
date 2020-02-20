@@ -5,7 +5,7 @@ title: "RetractorDB"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/IMG_0786.JPG
+  overlay_image: /assets/images/IMG_0786_s.JPG
   caption: "Photo credit: Tomasz Widera"
 excerpt: "RetractorDB is the open source time series database"
 feature_row:
