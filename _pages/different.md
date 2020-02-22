@@ -13,11 +13,11 @@ toc: true
 
 # A different aproach to time series processing with RetractorDB
 
-(work in progress)
+(work in progress - page under construction)
 
 ## Abstract
 
-This page is a report of actual work on following problem: How different RetractorDB is to other solutions. First, we are trying to find out what we understand by other solutions and what we are will compare with. Then this page is showing how simple examples of time series processing on identified system and how actually we can do it in RetractorDB. Then we are presenting tasks that are hard or impossible to write and process in competitors. Then we will try something opposite - write tasks that are hard or impossible to write in RetractorDB and how easy we can do it in other solutions. At the summary section we will show how to connect to other time series database systems and get benefits for different solutions. How to cooperate and get benefits of different approaches.
+This page is a actual report describing work on following problem: How different RetractorDB compare to other solutions. First, we are trying to find out what we understand by other solutions and what we are will compare with. Then this page is showing how simple examples of time series processing on identified system and how actually we can do it in RetractorDB. Then we are presenting tasks that are hard or impossible to write and process in competitors. Then we will try something opposite - write tasks that are hard or impossible to write in RetractorDB and how easy we can do it in other solutions. At the summary section we will show how to connect to other time series database systems and get benefits for different solutions. How to cooperate and get benefits of different approaches.
 
 
 ## Introduction
@@ -34,12 +34,13 @@ That’s license friendly products that can compare to and promote for community
 
 ## Time series processing tasks
 
+There are various group of typical time series processing tasks. Most simples are: show me histogram of changes or show average value of incoming measurment. That's basics what we can ask typical time series database system.
+Things became more complicated when someone asks - how many data you want to use? If you accidentally touch infinity - you can doubt what was really means "simple".
+
 ### Downsampling
 
-The idea of downsamplig with time series database was descibed in one of InfluxDB presentations. Here is follwing video:
-
-{% include video id="j3x0TohyGJY" provider="youtube" %}
-
+The idea of downsamplig with time series database was descibed in one of [InfluxDB presentations][YT-FL-DOWNSAMPL].
 
 [KT-2018]:http://helios.mi.parisdescartes.fr/~themisp/publications/icde18-sms.pdf
 [DB-RANK]:https://db-engines.com/en/ranking/time+series+dbms
+[YT-FL-DOWNSAMPL]:https://youtu.be/j3x0TohyGJY
