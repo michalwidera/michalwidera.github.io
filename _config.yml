@@ -48,6 +48,13 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+
+## => Markdown Enhancements
+##############################
+## Mathjax
+mathjax: true # false (default),
+mathjax_autoNumber: # false (default), true
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
