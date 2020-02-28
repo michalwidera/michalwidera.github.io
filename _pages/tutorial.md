@@ -47,12 +47,16 @@ This is record of my session with computer. This takes about 18 minutes of prese
 
 {% include video id="I-nd5m7KSK4" provider="youtube" %}
 
+Note: RetractorDB is current name of this database. This video will be recorded again.
+
 Query Language
 --------------
 
 This presentation covers area of basic implemented query language. This is mandatory to see if we want to start coding and using this system.  
 
 {% include video id="opVlhm-K5Mw" provider="youtube" %}
+
+Note: RetractorDB is current name of this database. This video will be recorded again.
 
 Operator Mechanics
 ------------------
@@ -61,12 +65,16 @@ Operator mechanics is presentation that try to show how different operators from
 
 {% include video id="fRW0sg9EgVM" provider="youtube" %}
 
+Note: RetractorDB is current name of this database. This video will be recorded again.
+
 Math Basics
 -----------
 
 This presentation show math basics required to undersand core behaviour of algebraic operators used in this system. This is quite hard to adapt. I suggest to skip this and return to this data at the end of course.
 
 {% include video id="McT_HoBElCM" provider="youtube" %}
+
+Note: RetractorDB is current name of this database. This video will be recorded again.
 
 Math-and-Model
 ==============
