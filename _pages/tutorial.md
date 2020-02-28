@@ -11,6 +11,8 @@ excerpt: "RetractorDB is the open source time series database"
 toc: true
 toc_sticky: false
 ---
+contents of this page is _work in progress_.
+Page under construction.
 
 Jump Start
 ==========
@@ -117,6 +119,12 @@ def sum(A: list, deltaA: Fraction, B: list, deltaB: Fraction):
   return result, deltaC
 ```
 
+Example query with summary operator in RetractorDB Query Language:
+
+```
+SELECT *  STREAM Result FROM A + B
+```
+
 Differenece opeartion
 ---------------------
 
@@ -148,6 +156,12 @@ def diff(C: list, deltaA: Fraction, deltaB: Fraction):
   return result, deltaC
 ```
 
+Example query whith difference operator in RetractorDB Query Language:
+
+```
+SELECT * STREAM Result FROM A - 0.5
+```
+
 Interlace operation
 -------------------
 
@@ -159,7 +173,11 @@ b_{n-\left\lfloor n z \right\rfloor } & \left\lfloor n z
 a_{\left\lfloor n z \right\rfloor } & \left\lfloor n z \right\rfloor
 \neq \left\lfloor \left( n+1\right) z \right\rfloor%
 \end{array}%
-\right. , z =\frac{\Delta _{b}}{\Delta _{a}+\Delta _{b}},\Delta _{c}=%
+\right. 
+$$
+
+$$
+z =\frac{\Delta _{b}}{\Delta _{a}+\Delta _{b}},\Delta _{c}=%
 \frac{\Delta _{a}\Delta _{b}}{\Delta _{a}+\Delta _{b}} 
 $$
 
@@ -179,12 +197,24 @@ def hash(A: list, deltaA: Fraction, B: list, deltaB: Fraction):
   return result, deltaC
 ```
 
+Example query with Hash (Interlace) operator in RetractorDB Query Language:
+
+```
+SELECT *  STREAM Result FROM A # B
+```
+
+
 Deinterlace
 -----------
 
 Main series:
+
 $$
-a_{n} = c_{n+ \left\lceil  \frac{(n+1)\Delta _{a}}{\Delta _{b}} \right\rceil },\ \Delta _{a}=\frac{\Delta _{c}\Delta _{b}}{\left\vert \Delta _{c}-\Delta _{b}\right\vert }
+a_{n} = c_{n+ \left\lceil  \frac{(n+1)\Delta _{a}}{\Delta _{b}} \right\rceil }
+$$
+
+$$
+\Delta _{a}=\frac{\Delta _{c}\Delta _{b}}{\left\vert \Delta _{c}-\Delta _{b}\right\vert }
 $$
 
 ```python
@@ -198,9 +228,20 @@ def dehasheven(C: list, deltaC: Fraction, deltaA: Fraction):
   return result, deltaB
 ```
 
+Example query with Deinterlace (Even) in RetractorDB Query Language:
+
+```
+SELECT *  STREAM Result FROM A % 0.5
+```
+
 Resiude:
+
 $$
-b_{n} = c_{n+\left\lfloor \frac{n\Delta _{b}}{\Delta _{a}}\right\rfloor},\ \Delta _{b}=\frac{\Delta _{c}\Delta _{a}}{\left\vert \Delta _{c}-\Delta_{a}\right\vert }
+b_{n} = c_{n+\left\lfloor \frac{n\Delta _{b}}{\Delta _{a}}\right\rfloor}
+$$
+
+$$
+\Delta _{b}=\frac{\Delta _{c}\Delta _{a}}{\left\vert \Delta _{c}-\Delta_{a}\right\vert }
 $$
 
 ```python
@@ -212,6 +253,12 @@ def dehashodd(C: list, deltaC: Fraction, deltaB: Fraction):
   for i in range(0, 6):
       result.append(C[i+int(i*deltaB/deltaA)])
   return result, deltaA
+```
+
+Example query with Deinterlace (Odd) in RetractorDB Query Language:
+
+```
+SELECT *  STREAM Result FROM A & 0.5
 ```
 
 Results
