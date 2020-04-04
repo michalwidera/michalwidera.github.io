@@ -25,7 +25,7 @@ cd retractordb
 cmake CMakeLists.txt; make
 ./build/xcompiler -q test/query-lnx.txt
 tmux
-./build/xabracadabra
+./build/xretractor
 [ctrl+B %]
 ./build/xqry -d
 ./build/xqry -s str1
