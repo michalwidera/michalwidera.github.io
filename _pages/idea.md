@@ -1,7 +1,5 @@
 ---
-layout: splash
-classes:
-  - wide
+layout: single
 title: "Code idea..."
 permalink: /idea/
 excerpt: "Code that materializes an idea.."
