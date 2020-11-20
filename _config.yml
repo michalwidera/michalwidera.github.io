@@ -78,6 +78,9 @@ author:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/michalwidera/"
+    - label: "Homepage"
+      icon: "fas fa-fw fa-link"
+      url: "https://widera.com.pl"
 
 
 footer:
