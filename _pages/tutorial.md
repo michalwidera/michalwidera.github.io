@@ -288,7 +288,7 @@ if __name__ == '__main__':
     main()
 ```
 
-Result of run:
+Result:
 
 ```
 Sum: (['1a', '1b', '2c', '2d', '3e', '3f', '4g', '4h', '5i', '5j', '6k', '6l', '7m', '7n', '8o', '8p', '9q', '9r', '10s', '10t'], Fraction(1, 2))
