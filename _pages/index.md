@@ -45,7 +45,7 @@ Some shoudn`t be ...
 When we encounter the first difficulties, we usually reject ideas that are difficult to understand from the beginning.
 
 Building of this system took a couple of years and still attracts me. The lonely path of discovering was quite fascinating and addictive. I hope that you will find beauty in this solution just as I did.'
-    url: "#test-link"
+    url: "/idea/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
