@@ -52,7 +52,7 @@ Note: RetractorDB is current name of this database. This video will be recorded 
 Query Language
 --------------
 
-This presentation covers area of basic implemented query language. This is mandatory to see if we want to start coding and using this system.  
+This presentation covers area of basic implemented query language. This is mandatory to see if we want to start coding and using this system.
 
 {% include video id="opVlhm-K5Mw" provider="youtube" %}
 
@@ -102,11 +102,11 @@ Summary operator
 
 Here is formal mathematical representation of summary operation.
 
-$$ 
-c_{n}=\left\{ 
+$$
+c_{n}=\left\{
 \begin{array}{cc}
 a_{n}|b_{ \left\lfloor  \frac{n\Delta _{a}}{\Delta _{b}} \right\rfloor }  & \Delta
-_{c}=\Delta _{a} \\ 
+_{c}=\Delta _{a} \\
 a_{ \left\lfloor  \frac {n\Delta _{b}}{\Delta _{a}} \right\rfloor }|b_{n} & \Delta
 _{c}=\Delta _{b}
 \end{array}
@@ -141,9 +141,9 @@ Formal models precede physical implementation in python
 The implementation of the operators of the introduced algebra is based on these equations.
 
 $$
-a_{n}=\left\{ 
+a_{n}=\left\{
 \begin{array}{cc}
-c_{n} & \Delta _{b}\geqslant \Delta _{a} \\ 
+c_{n} & \Delta _{b}\geqslant \Delta _{a} \\
 c_{\left\lceil \frac{n\Delta _{a}}{\Delta _{b}}\right\rceil } & \Delta
 _{b}<\Delta _{a}
 \end{array}
@@ -174,19 +174,19 @@ Interlace operation
 -------------------
 
 $$
-c_{n}=\left\{ 
+c_{n}=\left\{
 \begin{array}{cc}
 b_{n-\left\lfloor n z \right\rfloor } & \left\lfloor n z
-\right\rfloor =\left\lfloor \left( n+1\right) z \right\rfloor \\ 
+\right\rfloor =\left\lfloor \left( n+1\right) z \right\rfloor \\
 a_{\left\lfloor n z \right\rfloor } & \left\lfloor n z \right\rfloor
 \neq \left\lfloor \left( n+1\right) z \right\rfloor%
 \end{array}%
-\right. 
+\right.
 $$
 
 $$
 z =\frac{\Delta _{b}}{\Delta _{a}+\Delta _{b}},\Delta _{c}=%
-\frac{\Delta _{a}\Delta _{b}}{\Delta _{a}+\Delta _{b}} 
+\frac{\Delta _{a}\Delta _{b}}{\Delta _{a}+\Delta _{b}}
 $$
 
 ```python
