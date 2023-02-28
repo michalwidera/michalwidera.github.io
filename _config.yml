@@ -93,7 +93,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/michalwidera/retractordb"
     - label: "Trademark"
-      icon: "fa-solid fa-trademark"
+      icon: "fab fa-fw fa-trademark"
       url: "https://retractordb.com/trademark"
     - label: "Homepage"
       icon: "fas fa-fw fa-link"
