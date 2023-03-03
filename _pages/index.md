@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: //
-title: "<i><font face="Ubuntu">Retractor</font><font face="Ubuntu" color="#6699FF">DB</font></i>"
+title: "RetractorDB"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
