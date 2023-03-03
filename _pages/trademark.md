@@ -31,6 +31,7 @@ used in graphical form. The code that generates this trademark is following:
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
 <i><font face="Ubuntu">Retractor</font><font face="Ubuntu" color="#6699FF">DB</font></i>
 ```
+
 | SVG Sources |
 | :---: |
 | ![RetractorDB-SVG](../assets/images/retractordb.svg) |
