@@ -34,5 +34,5 @@ used in graphical form. The code that generates this trademark is following:
 <i><font face="Ubuntu">Retractor</font><font face="Ubuntu" color="#6699FF">DB</font></i>
 ```
 
-![RetractorDB-SVG](./assets/images/retractordb.svg)
-![RetractorDB-SVG-onblack](./assets/images/retractordb-onblack.svg)
+![RetractorDB-SVG](../assets/images/retractordb.svg)
+![RetractorDB-SVG-onblack](../assets/images/retractordb-onblack.svg)
