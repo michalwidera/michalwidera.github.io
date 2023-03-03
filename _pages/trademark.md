@@ -24,7 +24,10 @@ RetractorDB is written as one word without spaces. Word Retractor starts with Ca
 
 Here is an example:
 
-This is RetractorDB used in graphical form. The code that generates this trademark is following:
+This is 
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+<i><font face="Ubuntu">Retractor</font><font face="Ubuntu" color="#6699FF">DB</font></i>
+used in graphical form. The code that generates this trademark is following:
 
 [TM][https://ewyszukiwarka.pue.uprp.gov.pl/search/pwp-details/Z.509860?lng=en]
 [UBUNTU-FONT][https://design.ubuntu.com/font/]
