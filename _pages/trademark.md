@@ -16,11 +16,11 @@ Trademarks are names and designs that tell the world the source of a good or ser
 
 The RetractorDB Trademark include one word mark - RetractorDB
 
-RetractorDB trademark is protected by exclusive right number [R.332224][TM]
+RetractorDB trademark is protected by exclusive right number [R.332224](https://ewyszukiwarka.pue.uprp.gov.pl/search/pwp-details/Z.509860?lng=en)
 
 ##  Guideline
 
-RetractorDB is written as one word without spaces. Word Retractor starts with Capital Letter, apendix DB is always capitals. Graphical representation is using [Ubuntu Font Italic][UBUNTU-FONT]. Retractor word is black on light plane or white on dark. DB word is always presented in baby blue color - with #6699FF color.
+RetractorDB is written as one word without spaces. Word Retractor starts with Capital Letter, apendix DB is always capitals. Graphical representation is using [Ubuntu Font Italic](https://design.ubuntu.com/font/). Retractor word is black on light plane or white on dark. DB word is always presented in baby blue color - with #6699FF color.
 
 Here is an example:
 
@@ -29,8 +29,6 @@ This is
 <i><font face="Ubuntu">Retractor</font><font face="Ubuntu" color="#6699FF">DB</font></i>
 used in graphical form. The code that generates this trademark is following:
 
-[TM][https://ewyszukiwarka.pue.uprp.gov.pl/search/pwp-details/Z.509860?lng=en]
-[UBUNTU-FONT][https://design.ubuntu.com/font/]
 ```
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
 <i><font face="Ubuntu">Retractor</font><font face="Ubuntu" color="#6699FF">DB</font></i>
