@@ -1,13 +1,13 @@
 ---
 layout: splash
 permalink: //
-title: "RetractorDB"
+title: "<i><font face="Ubuntu">Retractor</font><font face="Ubuntu" color="#6699FF">DB</font></i>"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/IMG_0786_s.JPG
   caption: "Photo credit: Tomasz Widera"
-excerpt: "<i><font face="Ubuntu">Retractor</font><font face="Ubuntu" color="#6699FF">DB</font></i> is the open source time series database"
+excerpt: "The open source time series database"
 feature_row:
   - image_path: assets/images/splash-1.jpg
     title: "Unique way of data processing"
