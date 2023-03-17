@@ -43,7 +43,7 @@ Here you can find some video tutorials about RetractorDB Time Series Database sy
 Session Record
 --------------
 
-This is record of my session with computer. This takes about 18 minutes of presentation how acutually system works and how I handle with it. This presentation should go at first. Because there is no math jargon and we can see real data flowing and processing. I'm strongly suggest to start from this point. Note: you require some additional programs installed like: graphviz, feh, tmux. Use apt get install to get them.
+This is record of my session with computer. This takes about 18 minutes of presentation how actually system works and how I handle with it. This presentation should go at first. Because there is no math jargon and we can see real data flowing and processing. I'm strongly suggest to start from this point. Note: you require some additional programs installed like: graphviz, feh, tmux. Use apt get install to get them.
 
 {% include video id="I-nd5m7KSK4" provider="youtube" %}
 
@@ -70,7 +70,7 @@ Note: RetractorDB is current name of this database. This video will be recorded 
 Math Basics
 -----------
 
-This presentation show math basics required to undersand core behaviour of algebraic operators used in this system. This is quite hard to adapt. I suggest to skip this and return to this data at the end of course.
+This presentation show math basics required to understand core behavior of algebraic operators used in this system. This is quite hard to adapt. I suggest to skip this and return to this data at the end of course.
 
 {% include video id="McT_HoBElCM" provider="youtube" %}
 
@@ -79,13 +79,13 @@ Note: RetractorDB is current name of this database. This video will be recorded 
 Math-and-Model
 ==============
 
-Following code initate data.
+Following code initiate data.
 Code is compatible with python3
 
 ```python
 #!/usr/bin/python
 
-"""Time Series Algebra Equations Implemenations - Python 3.x
+"""Time Series Algebra Equations Implementations - Python 3.x
    2019 Michal Widera
 """
 
@@ -133,7 +133,7 @@ Example query with summary operator in RetractorDB Query Language:
 SELECT *  STREAM Result FROM A + B
 ```
 
-Differenece opeartion
+Difference operation
 ---------------------
 
 Here is formal mathematical representation of difference operation.

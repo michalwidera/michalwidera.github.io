@@ -35,7 +35,7 @@ That’s license friendly products that can compare to and promote for community
 
 ## Time series processing tasks
 
-There are various group of typical time series processing tasks. Most simples are: show me histogram of changes or show average value of incoming measurment. That's basics what we can ask typical time series database system.
+There are various group of typical time series processing tasks. Most simples are: show me histogram of changes or show average value of incoming measurement. That's basics what we can ask typical time series database system.
 Things became more complicated when someone asks - how many data you want to use? If you accidentally touch infinity - you can doubt what was really means "simple".
 
 First we need to realize that RetractorDB works currently only on __regular__ time series. In case of general Time Series Databases - they support both regular and irregular time series.

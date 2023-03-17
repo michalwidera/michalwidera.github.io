@@ -20,7 +20,7 @@ RetractorDB trademark is protected by exclusive right number [R.332224](https://
 
 ##  Guideline
 
-RetractorDB is written as one word without spaces. Word Retractor starts with Capital Letter, apendix DB is always capitals. Graphical representation is using [Ubuntu Font Italic](https://design.ubuntu.com/font/). Retractor word is black on light plane or white on dark. DB word is always presented in baby blue color - with #6699FF color.
+RetractorDB is written as one word without spaces. Word Retractor starts with Capital Letter, appendix DB is always capitals. Graphical representation is using [Ubuntu Font Italic](https://design.ubuntu.com/font/). Retractor word is black on light plane or white on dark. DB word is always presented in baby blue color - with #6699FF color.
 
 Here is an example:
 
